@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/demo/static/css/main.10c36bea.css",
+    "main.js": "/demo/static/js/main.821c138e.js",
+    "static/media/HERO-FOR-GOFTY.png": "/demo/static/media/HERO-FOR-GOFTY.545957730f25453974d7.png",
+    "static/media/minilogo.png": "/demo/static/media/minilogo.0e8feda97b78f008e6bf.png",
+    "static/media/fruitsCat.jpg": "/demo/static/media/fruitsCat.b4704861f1be77639033.jpg",
+    "static/media/milkCat.jpg": "/demo/static/media/milkCat.22046d33b6831ea6eba7.jpg",
+    "static/media/2.jpg": "/demo/static/media/2.d61bff3e82856873c449.jpg",
+    "static/media/5.jpg": "/demo/static/media/5.bf575024077ab34cd8d2.jpg",
+    "static/media/1.jpg": "/demo/static/media/1.53d8804e7eca0b174c63.jpg",
+    "static/media/vegetableCat.png": "/demo/static/media/vegetableCat.1d8c864f05ccf70fabb0.png",
+    "static/media/4.jpg": "/demo/static/media/4.ad8dda57d7abe576c1c6.jpg",
+    "static/media/drinksCat.jpg": "/demo/static/media/drinksCat.8efb7e5a9aa336351630.jpg",
+    "index.html": "/demo/index.html",
+    "main.10c36bea.css.map": "/demo/static/css/main.10c36bea.css.map",
+    "main.821c138e.js.map": "/demo/static/js/main.821c138e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10c36bea.css",
+    "static/js/main.821c138e.js"
+  ]
+}

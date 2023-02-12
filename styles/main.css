@@ -1,0 +1,113 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: .2s all ease-in-out;
+    color: var(--color-black);
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Poppins', sans-serif;
+    height: 300vh;
+}
+
+button, a{
+    cursor: pointer;
+}
+
+:root{
+    --color-P:#3D582A;
+    --color-S:#598E34;
+    --bg-g: linear-gradient(90deg,#3D582A, #598d34);
+    --bx-shadow:  0 0 3.5px 3.5px rgba(51, 51, 51, 0.098);
+    --color-black:#333;
+    --color-gray:#444;
+    --color-gray2:#a0a0a082;
+    --title-sz: 2rem;
+}
+
+
+
+
+.loading{
+    z-index: 100000000;
+    width:100vw;
+    height:100vh;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    transition:.5s;
+    }
+    
+    .loading img{
+        width:50px;
+        height:50px;
+    }
+    .loading div{
+        width:30px;
+        height:30px;
+        border: 5px solid #fff;
+        border-left-color: var(--color-P);
+        border-radius:50px;
+        animation: loading .5s infinite ease;
+    }
+    
+    @keyframes loading {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+
+    .hideloading{
+        opacity: 0;
+        transform: scale(1.3);
+    }
+
+
+
+
+    *::-webkit-scrollbar{
+        width:5px;
+    }
+    *::-webkit-scrollbar-button{
+        display: none;
+    }
+    *::-webkit-scrollbar-track{
+        background-color: transparent;
+    }
+    *::-webkit-scrollbar-thumb{
+        border-radius: 8px;
+        background-color: var(--color-P);
+    }
+    
+    
+    .greenfriday img{
+        width:90%;
+        max-width:500px;
+    }
+    .greenfriday{
+        padding-bottom: 70px;
+        margin-top:-50px;
+        width:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    
+    
+    
+    
+    

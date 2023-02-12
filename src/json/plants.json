@@ -1,0 +1,93 @@
+{
+    "a":{
+        "id":"a",
+        "name":"plant name",
+        "price":35.5,
+        "img":"src/images/a.png",
+        "info":""
+    },
+    "b":{
+        "id":"b",
+        "name":"plant name",
+        "price":35.5,
+        "img":"src/images/b.png",
+        "info":""
+    },
+    "c":{
+        "id":"c",
+        "name":"plant name",
+        "price":35.5,
+        "img":"src/images/c.png",
+        "info":""
+    },
+    "d":{
+        "id":"d",
+        "name":"plant name",
+        "price":35.5,
+        "img":"src/images/d.png",
+        "info":""
+    },
+    "e":{
+        "id":"e",
+        "name":"plant name",
+        "price":35.5,
+        "img":"src/images/e.png",
+        "info":""
+    }, 
+    "f":{
+        "id":"f",
+        "name":"plant name",
+        "price":35.5,
+        "img":"src/images/f.png",
+        "info":""
+    },    
+    "g":{
+        "id":"g",
+        "name":"plant name",
+        "price":35.5,
+        "img":"src/images/g.png",
+        "info":""
+    },    
+    "h":{
+        "id":"h",
+        "name":"plant name",
+        "price":35.5,
+        "img":"src/images/h.png",
+        "info":""
+    },    
+    "i":{
+        "id":"i",
+        "name":"plant name",
+        "price":35.5,
+        "img":"src/images/i.png",
+        "info":""
+    },    
+    "j":{
+        "id":"j",
+        "name":"plant name",
+        "price":35.5,
+        "img":"src/images/j.png",
+        "info":""
+    },    
+    "k":{
+        "id":"k",
+        "name":"plant name",
+        "price":35.5,
+        "img":"src/images/k.png",
+        "info":""
+    },
+    "l":{
+        "id":"l",
+        "name":"plant name",
+        "price":35.5,
+        "img":"src/images/l.png",
+        "info":""
+    },
+    "m":{
+        "id":"m",
+        "name":"plant name",
+        "price":35.5,
+        "img":"src/images/m.png",
+        "info":""
+    }
+}

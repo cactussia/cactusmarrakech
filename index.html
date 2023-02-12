@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="facebook-domain-verification" content="aal6aj6c7jvztuh2aui1oal1fatyn4" />
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/style.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">   
+
+
+    <link rel="icon" type="image/x-icon" href="src/icons/logo.jpg">
+
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    
+    
+    <title>cactusmarrakech</title>
+
+
+
+    <link rel="stylesheet" href="styles/info.css">
+
+
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '3255044334769129');
+fbq('track', 'PageView');
+fbq('track', 'AddToCart');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=3255044334769129&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+
+
+
+</head>
+<body>
+
+    <div id="loading" class="loading">
+        <img src="src/icons/logo.jpg" alt="" title="cactusmarrakech">
+        <div></div>
+    </div>
+
+
+    <header>
+        <nav>
+            <div class="container">
+                <a href="index.html"><img class="logo" src="src/icons/logo.jpg" alt=""></a>
+                <div class="linksbar" id="linksbar">
+                    <ul class="pagelink">
+                        <li><a linkheader onclick="closeinfoplant();linkactive(this)" href="#">Accueil</a></li>
+                        <li><a linkheader onclick="closeinfoplant();view('plant');linkactive(this)" href="#garden-shop">Cactus</a></li>
+                        <li><a linkheader onclick="closeinfoplant();view('pot');linkactive(this)" href="#garden-shop">Pots</a></li>
+                        <li><a linkheader onclick="view('plant');plantchecked=(plantchecked!=undefined)? plantchecked : 0 ;sweetchinfo2();showInfoPlant();rechecking(plantchecked);linkactive(this)" href="#garden-shop">Wiki</a></li>
+                        <li><a linkheader onclick="closeinfoplant();linkactive(this)" href="#contact">à propos</a></li>
+                         <li><a linkheader href="#pricing">Prix</a></li>
+                    </ul>
+                    <div class="leftbar">
+                        <!-- <button>FR <img src="src/icons/switch.png" alt=""></button> -->
+                        <button id="bag" class="bag new"><div></div></button>
+                        <div class="line"></div>
+                        <ul>
+                            <li><a target="_blank" href="https://wa.me/212669231618/?text=Bonjour"><img src="src/icons/whatsapp.png" alt=""></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/cactus_marrakech/"><img src="src/icons/instagram.png" alt=""></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/kechcactus06"><img src="src/icons/facebook.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="open_menu_btn" id="open"></button>
+                <button class="close_menu_btn" id="close"></button>
+            </div>
+        </nav>
+        <div class="hero">
+
+            <h1>BIENVENUE</h1>
+            <h4>Dans notre <span> jardin </span></h4>
+            <P>Trouvez la plante de vos rêves pour décorer votre espace privé, dans notre jardin vous trouverez votre plaisir ,
+                et vous pourrez trouver tout ce que vous voulez parmi des plantes,
+                des couleurs de pots et même des pack pré-préparés avec soin et amour</P>
+            <a href="#garden-shop" id="Shopcollection"> <img src="src/icons/shop-w.png" alt=""> Notre collection <img src="src/icons/down.png" alt=""></a>
+
+        </div>
+        <div scrollIndicateur class="scrollanime ">
+            <div></div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <a target="_blank" href="https://wa.me/212669231618/?text=Bonjour" class="whatsappfixbtn"></a>
+    <button id="bagfixbotton" class="bagfixbotton"  ><div></div></button>
+    <button id="bagfixbotton2" class="bagfixbotton2"  ><div></div></button>
+
+    
+
+
+
+
+
+  <section class="info-section">
+    <div class="info-bar">
+        <div class="grid-delevery">
+            <img src="src/icons/truck.png" alt="">
+            <p>livraison à domicile partout au Maroc</p>
+        </div>
+        <div class="grid-contact">
+            <img src="src/icons/headset.png" alt="">
+            <p>Assistance dédiée 24h/24 et 7j/7 <a target="_blank" href="https://wa.me/212669231618/?text=Bonjour">+212669231618</a></p>
+            
+        </div>
+        <div class="grid-pay">
+            <img src="src/icons/wallet.png" alt="">
+            <p>Paiement à livraison</p>
+        </div>
+    </div>
+
+   
+    </section>
+
+
+
+    <!--<div class="greenfriday" >-->
+        
+    <!-- <img  src="src/images/green friday.jpg">-->
+    <!--</div>-->
+ 
+
+
+
+    <section class="proinfo">
+        <div class="bestseller">
+            <h1 class="titleH1"><img src="src/icons/fire.png" alt=""> Nos Informations</h1>
+            <div class="bestcontainer ">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper"  >
+
+
+
+
+                                    <div class="swiper-slide">
+                                    <div class="bcard "> 
+                                        <img src="src/images/card-img-2.jpg" alt="">
+                                        <div class="info">
+                                            <h4> spéciale Offre</h4>
+                                            <br>
+                                            <p>
+                                                <b> <span style="font-size:18px;margin:0 3px">3</span>  pots cactus 195 dh + livraison gratuite </b> partout au Maroc
+                                            </p>
+                                            <h1 id="price">195.0 MAD <span> 230 MAD </span> </h1>
+                                            <a href="#garden-shop" class="get_now_btn_best">Demande<img src="src/icons/down-small.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                    </div>
+
+
+                                    
+                                    <div class="swiper-slide">
+                                        <div class="bcard "> 
+                                            <img src="src/images/morocco.jpg" alt="">
+                                            <div class="info info2">
+                                                <h4>Informations de livraison</h4>
+                                                <p>
+                                                    Notre service permet la livraison partout au Maroc à des prix raisonnables et parfois gratuits à partir de <b>3 pots cactus</b>. <br>
+                                                    <b s>-livraison <span style="color: var(--color-P);">hors</span> Marrakech 35dh</b><br>
+                                                    <b >-livraison <span style="color: var(--color-P);">sur</span> Marrakech 15dh</b><br>
+                                                    <b>(Livraison vers 24 h à 48 h)</b>
+                                                </p>
+                                                <a target="_blank" href="https://wa.me/212651952806/?text="> <img src="src/icons/whatsapp.png" alt="">Demandez-nous</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+
+                                    <div class="swiper-slide">
+                                        <div class="bcard "> 
+                                            <img src="src/images/phons.jpg" alt="">
+                                            <div class="info info2">
+                                                <h4>nos pages</h4>
+                                                <p>
+                                                    Suivez-nous sur nos pages de réseaux sociaux et soyez parmi les premiers à recevoir nos actualités.
+                                                </p>
+                                                <ul>
+                                                    <li><a target="_blank" href="https://www.instagram.com/cactus_marrakech/"> <img src="src/icons/instagram.png" alt=""> cactus_marrakech</a></li>
+                                                    <li><a target="_blank" href="https://www.facebook.com/kechcactus06"> <img src="src/icons/facebook.png" alt=""> Cactus marrakech</a></li>
+                                                </ul>
+                                            </div>
+                                    </div>
+                                    </div>
+                                        
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"  ></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section id="garden-shop" class="shopping">
+        <h1  class="titleH1"><img src="src/icons/shop-free-icon-font.png" alt=""> Notre collection</h1>
+        <div class="shop-btns">
+            <button id="plants-shop" class="" onclick="view('plant')"><img src="src/icons/flower.png" alt=""> Cactus</button>
+            <button id="pots-shop" class="" onclick="view('pot')"><img src="src/icons/pallet.png" alt=""> Pots <div crnt-pot-color class="pots-color"></div></button>
+        </div>
+        <h4>cliquez pour sélectionner <img src="src/icons/check-bc.png" alt=""></h4>
+        <h4 id="hint">double clic pour plus info <img src="src/icons/book-black.png" alt=""></h4>
+        <br>
+        <div class="shop-swiper ">
+
+
+
+            <div class="plants-swiper">
+                <div class="swiper myShopSwiper">
+                    <div class="swiper-wrapper a" id="shopplants"></div>
+                    <div class="swiper-pagination" > </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="get-section">
+            <div class="Line"></div>
+            <div class="qnt">
+                <button onclick="qntchang(-1)">-</button>
+                <h4 id="qntviewer">1</h4>
+                <button onclick="qntchang(1)">+</button>
+            </div>
+
+            <div class="price"> 
+                <h4 id="priceinfo">Prix total</h4>
+                <h1 id="priceviewer">0.00 MAD</h1>
+            </div>
+
+            <div class="get-now"> 
+                <button id="getNowone" onclick="addtocard()" class="get-now-btn in-btn ">Ajouter au panier<img src="src/icons/add-bag.png" alt=""></button>
+            </div>
+
+        </div>
+        <button id="getNowtow" onclick="addtocard()" class="get-now-btn out-btn ">Ajouter au panier<img src="src/icons/add-bag.png" alt=""></button>
+
+
+        
+    </section>
+
+
+
+
+
+    <section class="vidtut">
+    <video width="320" height="240" controls >
+        <source src="vidtut.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+    </section>
+
+
+
+<section class="pricing" id="pricing">
+    <h1>Les prix</h1>
+    <br>
+    <p>
+    <ul>
+        <li>1 pot cactus   :   65 dh <br>
+        <li>2 pots cactus : 129 dh <br>
+        <li>3 pots cactus : 195 dh +livraison gratuite<br>
+        <li>4 pots cactus : 249 dh + livraison gratuite <br>
+        <li>5 pots cactus : 299 dh +livraison gratuite <br>
+        <li>6 pots cactus : 349 dh + livraison gratuite <br>
+        <li>7 pots cactus : 399 dh + livraison gratuite <br>
+        <li>8 pots cactus : 449 dh + livraison gratuite <br>
+        <li>9 pots cactus : 499 dh + livraison gratuite <br>
+        <li>10 pots cactus 549 dh +livraison gratuite<br><br>
+    </ul>
+        <p>
+            <ul>
+                <li>Livraison gratuite partout au Maroc ( à partir de 3 pots cactus)<br>
+                <li>Livraison gratuite sur Marrakech (à partir de 2 pots cactus)<br>
+            </ul>
+        </p>
+    </p>
+</section>
+    
+
+    
+
+
+    
+    <footer id="contact">
+    <h1 class="titleH1"><img src="src/icons/users-free-icon-font.png" alt=""> à propos de nous </h1>
+
+        <section class="faq">
+            <div title="press to open" faq class="faq1 collapes">
+                <div class="qust">
+                    <h3>À propos de notre e-passerelle !</h3>
+                    <img src="src/icons/close_menu.png" alt="">
+                </div>
+                <div class="answer">
+                    <img src="src/icons/fill-heart-.png">
+                    <p>Cette boutique est votre nouvelle passerelle vers les achats en ligne d'une manière simple et facile. Nous vous proposons de nombreux produits de haute qualité pour que vous puissiez choisir parmi les meilleurs à un prix compétitif que vous ne trouverez nulle part ailleurs. Faire du shopping avec nous est un processus amusant et sûr. Nous vous fournissons toutes les facilités dont vous avez besoin, que ce soit dans le choix du produit, dans le processus de paiement ou dans le processus d'expédition.</p>
+                </div>
+            </div>
+            <div title="press to open" faq class="faq2 collapes">
+                <div class="qust">
+                    <h3>Quels sont les méthodes de paiement ?</h3>
+                    <img src="src/icons/close_menu.png" alt="">
+                </div>
+                <div class="answer">
+                    <img src="src/icons/fill-wallet-bc.png">
+                    <p>
+                        <b> Paiement à la livraison (COD)</b> <br>
+                        Paiement à la livraison (Cash On Delivery) est l'un des modes de paiement disponibles sur notre boutique, et le paiement à la réception signifie que le client peut acheter via notre boutique en ligne et choisir le produit qu'il souhaite, puis passer la commande et choisir le mode de paiement sur réception, ce qui signifie que le processus de paiement est reporté jusqu'à ce que le client reçoive le produit qu'il a commandé par voie électronique.
+                        Nous enverrons le produit au lieu convenu (ville, quartier, domicile ou autre lieu), puis le paiement sera effectué. <br><br>
+                        <b> Paiement par virement bancaire</b><br>
+                        Le paiement par virement bancaire est l'un des modes de paiement disponibles sur notre boutique, et le paiement est effectué en transférant le montant convenu sur notre compte bancaire, ou via un virement bancaire, ou via une agence de transfert d'argent au nom convenu, puis le produit est envoyé à l'endroit convenu.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    <div class="divfoolter">
+        <div class="footerlinks">
+            <ul>
+                <li><a onclick="closeinfoplant();" href="#"><img src="src/icons/home black.png" alt=""> Accueil</a></li>
+                <li><a onclick="closeinfoplant();view('plant');" href="#garden-shop"><img src="src/icons/flower.png" alt=""> Cactus</a></li>
+                <li><a onclick="closeinfoplant();view('pot');" href="#garden-shop"><img src="src/icons/pallet.png" alt=""> Pots</a></li>
+                <li><a onclick="view('plant');plantchecked=(plantchecked!=undefined)? plantchecked : 0 ;sweetchinfo2();showInfoPlant();rechecking(plantchecked)" href="#garden-shop"><img src="src/icons/book-black.png" alt=""> Wiki</a></li>
+                <li><a onclick="closeinfoplant();" href="#contact"><img src="src/icons/users-free-icon-font.png" alt=""> à propos</a></li>
+            </ul>
+        </div>
+        <div class="footerlogo">
+            <a href=""><img src="src/icons/logo.jpg" alt=""><h1>CACTUS  <br><span>MARRAKECH</span></h1></a>
+        </div>
+        <div class="footerlinks">
+            <ul>
+                <li><a target="_blank" href="https://wa.me/212669231618/?text=Bonjour"><img src="src/icons/whatsapp.png" alt="">+212 669231618</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/cactus_marrakech/"><img src="src/icons/instagram.png" alt="">cactus_marrakech</a></li>
+                <li><a target="_blank" href="https://www.facebook.com/kechcactus06"><img src="src/icons/facebook.png" alt="">Cactus marrakech</a></li>
+            </ul>
+        </div>
+    </div>
+    <h4>Copyright © 2022 cactusmarrakech.ma </h4>
+    <br>
+    </footer>
+
+    
+
+
+
+
+
+
+
+    <section id="sectionbag" class="section-bag">
+        <button id="bagClose" class="bag-close"></button>
+
+        
+        <div id="bagviewer" class="bag-viewer">
+
+        </div>
+        
+
+        <div class="bag-btns">
+            <h4 id="gapPrice"><img src="src/icons/flower.png" alt="">0 MAD</h4>
+            <hr>
+            <h4 id="dlvr"><img src="src/icons/truck-black.png" alt="">35 MAD</h4>
+        </div>
+        <div class="buy-btns">
+            <h4 id="bagtotalprice">00 MAD <img src="src/icons/price.png" alt=""></h4>
+            <button id="getnowbtnbag" onclick="if(bag.length!=0){getnow()}" class="get-now-btn-bag disable">demande <img src="src/icons/heart-free-icon-font.png" alt=""></button>
+        </div>
+    </section>
+
+
+
+    
+
+    <section id="cactusinfo" class="cactusinfo">
+        <div id="topsec" class="topsec">
+                <div class="backgroundinfo"></div>
+                <button onclick="closeinfoplant()" id="closeinfo" class="close-info"></button>
+                <div class="imgviewer">
+                <button class="imgviewerbtn" onclick="sweetchinfo(-1)" id="imgviewerleftbtn"></button>
+                <img id="imginfo" class="imginfo" src="src/images/plants/a.png" alt="">
+                <button class="imgviewerbtn" onclick="sweetchinfo(1)" id="imgviewerrightbtn"></button>
+                </div>
+                <div id="topsecinfo" class="topsecinfo">
+                        <h3 id="plantinfoname">Plant name </h3>
+                        <button onclick="searchingoogle()" class="google" href=""><img src="src/icons/google.png" alt=""> chercher dans google </button>
+                        <div class="infocards">
+                            <div><img src="src/icons/sun.png" alt=""> <span id="sunshade">lumière du soleil</span> </div>
+                            <div><img src="src/icons/thermometer.png" alt=""> <span id="temp">+30 deg</span></div>
+                            <div><img src="src/icons/whater.png" alt=""> <span id="watering">20ml dans la semaine</span></div>
+                        </div>
+                </div>
+        </div>
+        <p id="info"> voluptas nobis distinctio fugiat odit laudantium, ea iure sed dolore aut. Consectetur.</p>
+        
+    </section>
+
+
+
+
+
+
+
+    <div style="display:none;">
+        <img src="src/images/plants/a.png" alt="">
+        <img src="src/images/plants/b.png" alt="">
+        <img src="src/images/plants/c.png" alt="">
+        <img src="src/images/plants/d.png" alt="">
+        <img src="src/images/plants/e.png" alt="">
+        <img src="src/images/plants/f.png" alt="">
+        <img src="src/images/plants/g.png" alt="">
+        <img src="src/images/plants/h.png" alt="">
+        <img src="src/images/plants/i.png" alt="">
+        <img src="src/images/plants/j.png" alt="">
+        <img src="src/images/plants/k.png" alt="">
+        <img src="src/images/plants/l.png" alt="">
+        <img src="src/images/plants/m.png" alt="">
+        <img src="src/images/plants/n.png" alt="">
+
+
+        <img src="src/icons/smile.png" alt="">
+        <img src="src/icons/truck-green.png" alt="">
+    </div>
+    
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app/main.js"></script>
+    <script src="app/plants.js"></script>
+    <script src="app/card.js"></script>
+</body>
+</html>
